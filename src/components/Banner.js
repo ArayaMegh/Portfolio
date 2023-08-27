@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import fox from "../assets/img/fox.png"
-import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 
