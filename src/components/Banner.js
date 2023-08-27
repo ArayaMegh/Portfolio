@@ -57,7 +57,16 @@ export const Banner = () => {
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <span className="tagline">Bienvenue sur mon Portfolio</span>
                                     <h1>{"Bonjour ! Je suis Meghan :   "}<span className="wrap">{text}</span></h1>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>
+                                        <b> 📣 A la recherche d'une alternance !</b>
+
+                                        <ul>
+                                            <li> A partir d'octobre 2023 jusqu'à novembre 2024</li>
+                                            <li> Pour me préparer à un titre RNCP niveau 6 (bac + 3)</li>
+                                            <li> 4 jours par semaine (lundi au jeudi)</li>
+                                        </ul>
+
+                                    </p>
                                     <button onClick={() => sendMail()}>Contactez-moi !<ArrowRightCircle size={25} /></button>
                                 </div>}
                         </TrackVisibility>

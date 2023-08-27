@@ -503,6 +503,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-txtx {
+  color: white;
   position: absolute;
   text-align: center;
   top: 65%;

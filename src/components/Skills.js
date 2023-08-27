@@ -5,9 +5,11 @@ import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
     const skillsList = [
-        { name: 'Soft skills', items: ["Travail en équipe"] },
-        { name: 'Langages', items: ['JavaScript', 'Python'] },
-        { name: 'Outils', items: ['VS Code', 'PyCharm', 'Git'] }
+        { name: '🤝 Soft skills', items: ["Travail en équipe", "Empathie", "Patience", "Curiosité"] },
+        { name: '💻 Langages', items: ['React JS', 'Laravel', 'JavaScript', 'Python', 'PHP', 'Tailwind', 'HTML', 'CSS', "Kotlin (bientôt)", 'GO (bientôt)'] },
+        { name: '📚 Frameworks', items: ['React JS', 'Laravel', 'Tailwind', 'Bootstrap', 'Node JS', 'Express JS'] },
+        { name: '⚙️ Méthodologie', items: ['Agile', 'Kanban', 'Scrum'] },
+        { name: '🛠️ Outils', items: ['VS Code', 'PyCharm', 'Docker', 'Git', 'Github', 'Slack', "Terminal Unix", "Trello", "White board"] }
     ]
 
     return (
@@ -18,8 +20,9 @@ export const Skills = () => {
                         <div className="skill-bx">
                             <h2>
                                 Compétences
+
                             </h2>
-                            <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-evenly', marginTop: 50 }}>
                                 {
                                     skillsList.map((element, index) => {
                                         return (

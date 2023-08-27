@@ -15,29 +15,34 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
     const projects = [
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Le poussin vengeur",
+            description: "Jeu en Lua sur PICO-8",
             imgUrl: projImg1,
+            projectUrl: "https://github.com/ArayaMegh/Projet-Collectif---Pico-8"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Travel",
+            description: "Visualisation de données & API",
             imgUrl: projImg2,
+            projectUrl: "https://github.com/ArayaMegh/projet-collectif---dataviz-api"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Don't be a crevette",
+            description: "Extension de naviguation bien-être",
             imgUrl: projImg3,
+            projectUrl: "https://github.com/ArayaMegh/projet-collectif--Don-t-be-a-crevette",
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "My Safe Place",
+            description: "Réseau social safe & inclusif",
             imgUrl: projImg4,
+            projectUrl: "https://github.com/ArayaMegh/Reseau-Social-PHP---Projet-Collectif"
         },
         {
-            title: "Business Startup",
-            description: "Design & Development",
+            title: "Antikea",
+            description: "Site e-commerce de ventes de meubles d'occasion",
             imgUrl: projImg5,
+            projectUrl: "https://github.com/ArayaMegh/Projet-collectif---back-end-Antikea"
         },
     ];
 
@@ -51,7 +56,12 @@ export const Projects = () => {
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                                     <h2>Projets</h2>
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>Projets effectués au sein de la formation "Concepteur•ice développeur•se de logiciels et d'applications", de l'école <a href="https://adatechschool.fr" style={{ textDecoration: 'none', color: 'pink' }}>Ada Tech School</a> à Nantes
+                                        <br />
+                                        <br />
+                                        Ces projets ont été produits en équipe 🤝, en condition réelle 💼, avec les méthodes agiles ⚙️
+
+                                    </p>
                                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
 
