@@ -45,8 +45,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/meghan-grousset/"><img src={navIcon1} alt="" /></a>
-                            <a href="https://github.com/ArayaMegh"><img src={navIcon2} alt="" /></a>
+                            <a href="https://www.linkedin.com/in/meghan-grousset/" target="_blank"><img src={navIcon1} alt="" /></a>
+                            <a href="https://github.com/ArayaMegh" target="_blank"><img src={navIcon2} alt="" /></a>
 
                         </div>
                         <button className="vvd" onClick={() => sendMail()}><span>Contact</span></button>
