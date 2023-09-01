@@ -1,8 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { MailchimpForm } from "./MailchimpForm";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/navIcon-github.svg';
+import navIcon3 from '../assets/img/nav-icon4.svg';
 
 export const Footer = () => {
     return (
@@ -17,8 +17,9 @@ export const Footer = () => {
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/meghan-grousset/" target="_blank"><img src={navIcon1} /></a>
                             <a href="https://github.com/ArayaMegh" target="_blank"><img src={navIcon2} /></a>
+                            <a href="Meghan Grousset CV.pdf" download target="blank"><img src={navIcon3} alt='' /></a>
                         </div>
-                        <p>CopyRight 2023. All Right Reserved Meghan Grousset</p>
+                        <p>CopyRight 2023. All Right Reserved</p>
                     </Col>
                 </Row>
             </Container>
