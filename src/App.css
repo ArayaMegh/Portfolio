@@ -271,7 +271,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 75px 0 100px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -400,6 +400,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   grid-template-columns: repeat(auto-fill, minmax(200px, 0.5px));
   gap: 35px;
   margin-top: 50px;
+  justify-content: space-around;
+  justify-items: center;
 }
 
 .skill-item {

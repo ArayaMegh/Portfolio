@@ -4,11 +4,11 @@ import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills = () => {
     const skillsList = [
-        { name: '🤝 Soft skills', items: ["Travail en équipe", "Empathie", "Patience", "Curiosité", "Adaptabilité", "Discrétion"] },
-        { name: '💻 Langages', items: ['React JS', 'Laravel', 'JavaScript', 'Python', 'PHP', 'Tailwind', 'HTML', 'CSS', "Kotlin (en cours)", 'GO (bientôt)'] },
-        { name: '📚 Frameworks', items: ['React JS', 'Laravel', 'Tailwind', 'Bootstrap', 'Node JS', 'Express JS'] },
-        { name: '⚙️ Méthodologie', items: ['Agile', 'Kanban', 'Scrum'] },
-        { name: '🛠️ Outils', items: ['VS Code', 'PyCharm', 'Docker', 'Git', 'Github', 'Slack', "Terminal Unix", "Trello", "White board"] }
+        { symbol: '🤝', name: 'Soft skills', items: ["Travail en équipe", "Empathie", "Patience", "Curiosité", "Adaptabilité", "Discrétion"] },
+        { symbol: '💻', name: 'Langages', items: ['React JS', 'Laravel', 'JavaScript', 'Python', 'PHP', 'Tailwind', 'HTML', 'CSS', "Kotlin (en cours)", 'GO (bientôt)'] },
+        { symbol: '📚', name: 'Frameworks', items: ['React JS', 'Laravel', 'Tailwind', 'Bootstrap', 'Node JS', 'Express JS'] },
+        { symbol: '⚙️', name: 'Méthodologie', items: ['Agile', 'Kanban', 'Scrum'] },
+        { symbol: '🛠️', name: 'Outils', items: ['VS Code', 'PyCharm', 'Docker', 'Git', 'Github', 'Slack', "Terminal Unix", "Trello", "White board"] }
     ]
 
     return (
@@ -21,8 +21,8 @@ export const Skills = () => {
                             <div className="skills-grid">
                                 {skillsList.map((element, index) => (
                                     <div key={index} className="skill-item">
-                                        <h3>{element.name}</h3>
-                                        <div>
+                                        <h3>{element.symbol}<br />{element.name}</h3>
+                                        <div style={{ marginTop: 30 }}>
                                             {element.items.map((item, index) => (
                                                 <p key={index}>{item}</p>
                                             ))}
