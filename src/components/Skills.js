@@ -6,9 +6,9 @@ export const Skills = () => {
     const skillsList = [
         { symbol: '🤝', name: 'Soft skills', items: ["Travail en équipe", "Empathie", "Patience", "Curiosité", "Adaptabilité", "Discrétion"] },
         { symbol: '💻', name: 'Langages', items: ['JavaScript', 'Python', 'PHP', 'HTML', 'CSS', "Kotlin (en cours)", 'GO (bientôt)'] },
-        { symbol: '📚', name: 'Frameworks', items: ['React JS', 'Laravel', 'Tailwind', 'Bootstrap', 'Node JS', 'Express JS'] },
+        { symbol: '📚', name: 'Frameworks', items: ['React JS', 'Laravel', 'Tailwind', 'Bootstrap', 'Node JS', 'Express JS', 'JetPack Compose'] },
         { symbol: '⚙️', name: 'Méthodologie', items: ['Agile', 'Kanban', 'Scrum'] },
-        { symbol: '🛠️', name: 'Outils', items: ['VS Code', 'PyCharm', 'Docker', 'Git', 'Github', 'Slack', "Terminal Unix", "Trello", "Android Studio Jetpack Compose"] }
+        { symbol: '🛠️', name: 'Outils', items: ['VS Code', 'PyCharm', 'Docker', 'Git', 'Github', 'Slack', "Terminal Unix", "Trello", "Android Studio"] }
     ]
 
     return (
