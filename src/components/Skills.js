@@ -5,10 +5,10 @@ import colorSharp from "../assets/img/color-sharp.png";
 export const Skills = () => {
     const skillsList = [
         { symbol: '🤝', name: 'Soft skills', items: ["Travail en équipe", "Empathie", "Patience", "Curiosité", "Adaptabilité", "Discrétion"] },
-        { symbol: '💻', name: 'Langages', items: ['React JS', 'Laravel', 'JavaScript', 'Python', 'PHP', 'Tailwind', 'HTML', 'CSS', "Kotlin (en cours)", 'GO (bientôt)'] },
+        { symbol: '💻', name: 'Langages', items: ['JavaScript', 'Python', 'PHP', 'HTML', 'CSS', "Kotlin (en cours)", 'GO (bientôt)'] },
         { symbol: '📚', name: 'Frameworks', items: ['React JS', 'Laravel', 'Tailwind', 'Bootstrap', 'Node JS', 'Express JS'] },
         { symbol: '⚙️', name: 'Méthodologie', items: ['Agile', 'Kanban', 'Scrum'] },
-        { symbol: '🛠️', name: 'Outils', items: ['VS Code', 'PyCharm', 'Docker', 'Git', 'Github', 'Slack', "Terminal Unix", "Trello", "White board"] }
+        { symbol: '🛠️', name: 'Outils', items: ['VS Code', 'PyCharm', 'Docker', 'Git', 'Github', 'Slack', "Terminal Unix", "Trello", "Android Studio Jetpack Compose"] }
     ]
 
     return (
