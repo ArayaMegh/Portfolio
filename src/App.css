@@ -345,6 +345,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .animation {
+    animation: none;
+  }
+}
+
 .txt-rotate>.wrap {
   border-right: 0.08em solid #666;
 }
